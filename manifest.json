@@ -2,6 +2,7 @@
 	"manifest_version": 2,
 	"name": "Go To School",
 	"version": "1.0.0",
+	"author": "Mohamed Mubaraq",
 
 	"applications": {
 		"gecko": {
