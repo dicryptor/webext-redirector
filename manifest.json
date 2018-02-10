@@ -1,0 +1,29 @@
+{
+	"manifest_version": 2,
+	"name": "Go To School",
+	"version": "1.0.0",
+
+	"applications": {
+		"gecko": {
+			"id": "catgifs@mkreators.com"
+		}
+	},
+
+	"background": {
+		"scripts": ["background.js"]
+	},
+
+	"permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "storage",
+        "tabs",
+        "notifications",
+        "http://*/*",
+        "https://*/*"
+    ],
+
+	"browser_action": {
+		"default_title": "Go To School"
+	}
+}
