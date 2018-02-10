@@ -35,7 +35,7 @@ chrome.browserAction.onClicked.addListener(function(aTab) {
 	});	
 	chrome.tabs.query({'url': 'http://chilloutandwatchsomecatgifs.com/', 'url': 'https://portal.psb-academy.edu.sg/OnlineCourseDisplay/'}, (tabs) => {
 		if (tabs.length === 0) {
-			// There are no cat gifs tabs
+			// There are no cat gifs tabs here
 			console.log("There are no cat gifs..."); // for debugging
 			chrome.tabs.create({'url': 'http://chilloutandwatchsomecatgifs.com/', 'active': true});
 		} else {
